@@ -15,6 +15,11 @@ Fortunately, you can configure Docker Desktop to work with WSL 1.
 At first, your docker settings should look something like this:
 ![Docker Settings](https://raw.githubusercontent.com/CaliforniaMountainSnake/wsl-1-docker-integration/master/screenshots/1.png "Docker Settings")
 
+Don't forget to set the version of your wsl to 1:
+```powershell
+wsl --set-version DISTRO_NAME 1
+```
+
 
 ## Step 1.
 You may have built-in placeholder `docker` and `docker-compose` commands (usually in Ubuntu):
